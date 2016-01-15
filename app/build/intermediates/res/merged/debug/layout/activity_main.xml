@@ -9,7 +9,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-<EditText
+<!--<EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/edit"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="发送"
         android:onClick="testSSL"
-        />
+        />-->
 
 <TextView
     android:layout_width="wrap_content"
@@ -30,4 +30,34 @@
     android:textSize="20dp"
     android:id="@+id/textview"
     android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getmessage"
+        android:text="getMessage"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getimage"
+        android:text="getImage"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getother"
+        android:text="getOther"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="start"
+        android:text="照相机"/>
+    <ImageView
+        android:id="@+id/show_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+
+         />
+    <!--android:src="@drawable/product_default_icon"-->
 </LinearLayout>
+<!-- From: file:/C:/Users/Auser/Desktop/newll/AndroidSSL/app/src/main/res/layout/activity_main.xml -->

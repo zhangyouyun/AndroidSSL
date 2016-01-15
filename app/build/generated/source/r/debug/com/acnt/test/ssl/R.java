@@ -18,10 +18,12 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090003;
-        public static final int btn_ssl=0x7f090001;
-        public static final int edit=0x7f090000;
-        public static final int textview=0x7f090002;
+        public static final int action_settings=0x7f090005;
+        public static final int getimage=0x7f090002;
+        public static final int getmessage=0x7f090001;
+        public static final int getother=0x7f090003;
+        public static final int show_image=0x7f090004;
+        public static final int textview=0x7f090000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -30,7 +32,8 @@ public final class R {
         public static final int main=0x7f080000;
     }
     public static final class raw {
-        public static final int test=0x7f040000;
+        public static final int sslkey=0x7f040000;
+        public static final int test=0x7f040001;
     }
     public static final class string {
         public static final int action_settings=0x7f070000;

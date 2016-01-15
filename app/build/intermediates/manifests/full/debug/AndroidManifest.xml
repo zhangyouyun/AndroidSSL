@@ -21,8 +21,10 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
  <!-- 用于评论模块分享位置信息 -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+ <!-- 用于评论模块分享位置信息 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
-    <!-- 用于评论模块分享位置信息 -->
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
